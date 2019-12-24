@@ -3,7 +3,7 @@ from pymongo import MongoClient
 from pprint import pprint
 # connect to MongoDB, change the << MONGODB URL >> to reflect your own connection string
 
-adminConnectionString = 'mongodb+srv://crisp:C7e7d95DBLrWiHyL@kevin-8xfyp.azure.mongodb.net/test?retryWrites=true&w=majority'
+adminConnectionString = 'mongodb+srv://crisp:***@kevin-8xfyp.azure.mongodb.net/test?retryWrites=true&w=majority'
 
 client = MongoClient(adminConnectionString)
 db=client.admin
